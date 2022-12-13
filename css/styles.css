@@ -114,7 +114,7 @@ text-decoration:none ;
 /* .list {
     list-style: none;
 } */
-.header-list-link {
+/* .header-list-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1,14;
@@ -175,12 +175,12 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1)
         align-items: center;
     margin-right: 10px;
     fill: #757575;
-} */
+} */ */
 
 
 /* .hero */
 
-
+/* 
 .hero {
     max-width: 1600px;
     max-height: 600px;
@@ -213,7 +213,7 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #FFFFFF;
-}
+} */
 
 /* main */
 /* .main-button {
@@ -253,7 +253,7 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1)
 
 
     /* transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) */
-    } */
+    
 
     /* .filter-button:hover, .filter-button:focus {
         background-color: #2196F3;
@@ -261,7 +261,7 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1)
         cursor: pointer;} */
 
   /* our benefits */
-  .our-benefits {
+  /* .our-benefits {
 padding-top: 94px;
 padding-bottom: 94px;
   }
@@ -283,7 +283,7 @@ padding-top: 30px;
 margin-left: 30px;
 } */
 
-
+/* 
 .benefits-list-item {
     font-family: 'Roboto';
     font-style: normal;
@@ -325,11 +325,11 @@ height: 72px;
 
 .benefits-icon {
     fill: var(--first-color-icon);
-}
+} */ */
 
 
 /* ABOUT */
-
+/* 
 .about {
     padding-bottom: 94px;
 }
@@ -346,11 +346,11 @@ height: 72px;
 
 .about-list {
     display: flex;
-}
+} */
 
 
 /* team */
-.our-team {
+/* .our-team {
     background-color: rgba(245, 244, 250, 1);
     padding-bottom: 94px;
 }
@@ -463,11 +463,11 @@ padding-top: 30px;
 
     .position {
 padding-top: 10px;
-    }
+    } */
 
     /* REGULAR-CUSTOMERS */
 
-    .customers-icons .customers-item {
+    /* .customers-icons .customers-item {
         width: 170px;
         height: 92px;
         border: 1px solid rgba(175, 177, 184, 1);
@@ -518,15 +518,18 @@ padding-top: 10px;
 
 .customers-icons .customers-item:hover, .customers-icons .customers-item:focus {
     border-color: #2196F3;
-}
+} */
 
 
-.customers-link {
+/* .customers-link {
 padding: 16px 32px;
-}
+} */
 
 
 /* footer */
+
+/* 
+
 .page-footer {
     display: flex;
 }
@@ -652,15 +655,15 @@ font-family: 'Roboto';
 
 .footer-social .social-icons .social-item:nth-child(3) {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
+} */
 /* Форма у футері */
 
 /* .form {
     /* width: 570px;
     height: 86px; */
     /* margin: 0; */
-} */
-
+/* } */ */
+/* 
 .footer-wrapper  {
     /* width: 570px;
     height: 86px; */
@@ -705,7 +708,7 @@ font-family: 'Roboto';
 } */
 
 
-/* .sender-btn {
+.sender-btn {
     width: 200px;
         height: 50px;
         text-align: center;
@@ -725,7 +728,7 @@ font-family: 'Roboto';
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 4px;
     
-} */
+}
 /* .sender-text {
     
   } */
@@ -735,9 +738,6 @@ font-family: 'Roboto';
     align-items: center;
   
 }
-
-   
-    
 
 
 .sender-text {
@@ -749,12 +749,12 @@ font-family: 'Roboto';
         line-height: 30px;
         margin-left: auto;
         margin-right: auto;
-        display: ;
         align-items: center;
        justify-content: center;
         letter-spacing: 0.06em;
     
         color: #FFFFFF;
+        margin: 0px;
 }
 
 
@@ -763,9 +763,9 @@ font-family: 'Roboto';
 .item.border {
     position: relative;
 }
+ */
 
-
-    .header-link.act-stud.link::after {
+    /* .header-link.act-stud.link::after {
                 content: "";
                 position: absolute;
                 bottom: -30px;
@@ -787,11 +787,11 @@ font-family: 'Roboto';
     background: #2196F3;
     border-radius: 2px;
 
-}
+} */
 
 /* МОДАЛЬНЕ ВІКНО */
 
-.backdrop {
+/* .backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -926,7 +926,7 @@ textarea {
     border-color:  #2196F3;
 
 } */
-
+/* 
 .form-field-comment {
     width: 448px;
     height: 138px;
@@ -1096,15 +1096,15 @@ fill: var(--main-color);
 } */
 
 
-
+/* 
 .modal-input:focus +.input-icon {
     fill: #2196F3;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+}  */
 
 
 /* Портфоліо */
-.our-projects-list {
+/* .our-projects-list {
     padding: 0px;
     margin: 0px;
     list-style: none;
@@ -1129,8 +1129,8 @@ margin-top: 30px;
 .container-projects {
     padding-top: 34px;
 }
-.visually-hidden {
-    display: none;}
+/* .visually-hidden {
+    display: none;} */
     
 .projects-title {
     font-weight: 700;
@@ -1246,6 +1246,5 @@ width: 130px;
 
 .our-projects-list .item:hover .projects-text {
     transform: translateY(0%);
-
-}
+} 
 

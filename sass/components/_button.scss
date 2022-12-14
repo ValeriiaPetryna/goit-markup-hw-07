@@ -9,11 +9,14 @@
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
-.button:hover,
-.button:focus {
+
+
+.button {
+    &:hover, &:focus {
     background-color: #2196F3;
-    color: #FFFFFF;
-    cursor: pointer;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
 }
 
 

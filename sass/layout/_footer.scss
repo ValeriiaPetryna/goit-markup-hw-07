@@ -53,7 +53,7 @@
 
 .footer-social .social-link:hover,
 .footer-social .social-link:focus {
-    background-color: #2196F3;
+    background-color: $accent-color;
 }
 
 .footer-social .social-link {
@@ -62,7 +62,7 @@
 
 .footer-social .social-link:hover .social-icon,
 .footer-social .social-link:focus .social-icon {
-    fill: var(--accent-color);
+    fill: $accent-color;
 }
 
 .footer-social .social-item:last-child {
@@ -85,7 +85,7 @@
 
 .address-link:hover,
 :focus {
-    color: #2196F3;
+    color: $accent-color;
 }
 
 .contacts-list .link {
@@ -95,7 +95,7 @@
     font-size: 14px;
     line-height: 1, 14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: $second-color;
     padding-top: 20px;
 
     display: inline-block;
@@ -103,7 +103,7 @@
 
 .contacts-link:hover,
 :focus {
-    color: #2196F3;
+    color: $accent-color;
 
 }
 

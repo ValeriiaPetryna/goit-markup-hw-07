@@ -10,7 +10,7 @@
     line-height: 1, 14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--main-color);
+    color: $main-color;
     padding-top: 30px;
 }
 
@@ -58,5 +58,5 @@
 }
 
 .benefits-icon {
-    fill: var(--first-color-icon);
+    fill: $first-color-icon;
 }

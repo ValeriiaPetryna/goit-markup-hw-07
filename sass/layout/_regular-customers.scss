@@ -39,19 +39,19 @@
 }
 
 .customers-icons .regular-customers-icon {
-    fill: var(--first-color-icon);
+    fill: $first-color-icon;
 
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .customers-icons .customers-item:hover .regular-customers-icon,
 .customers-icons .customers-item:focus .regular-customers-icon {
-    fill: #2196F3;
+    fill: $accent-color;
 }
 
 .customers-icons .customers-item:hover,
 .customers-icons .customers-item:focus {
-    border-color: #2196F3;
+    border-color: $accent-color;
 }
 
 .customers-link {

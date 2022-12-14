@@ -26,12 +26,12 @@
 
 .team-list .social-link:hover,
 .team-list .social-link:focus {
-    background-color: #2196F3;
+    background-color: $accent-color;
 }
 
 .team-list .social-link:hover .social-icon,
 .team-list .social-link:focus .social-icon {
-    fill: var(--second-color-icon);
+    fill: $second-color-icon;
 }
 
 
@@ -60,7 +60,7 @@
     font-weight: 700;
     font-size: 36px;
     line-height: 1, 17;
-    color: var(--main-color);
+    color: $main-color;
 }
 
 .our-team-title,
@@ -79,7 +79,7 @@
 }
 
 .team-list .social-icon {
-    fill: var(--first-color-icon);
+    fill: $first-color-icon;
 }
 
 
@@ -87,14 +87,14 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 1, 19;
-    color: var(--main-color);
+    color: $main-color;
 }
 
 .position {
     font-weight: 400;
     font-size: 16px;
     line-height: 1, 19;
-    color: #757575;
+    color: $second-color;
 }
 
 .position-frontend,

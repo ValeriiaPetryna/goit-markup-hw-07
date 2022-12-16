@@ -10,7 +10,7 @@
 
 }
 
-.container-portfolio {
+.portfolio__container {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -23,7 +23,7 @@
 }
 
 
-.container-projects {
+.portfolio__projects {
     padding-top: 34px;
 }
 
@@ -44,7 +44,7 @@
     color: $second-color;
 }
 
-.main-filter-list {
+.portfolio__main-filter-list {
     display: flex;
     justify-content: center;
     margin-left: auto;

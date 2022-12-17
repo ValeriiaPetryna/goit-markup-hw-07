@@ -15,47 +15,47 @@
     <link rel="stylesheet" href="./css/main.min.css"/>
   </head>
   <body class="page-body">
-    <header class="page-header">
-      <div class="container">
-        <nav class="header-nav">
-          <a class="logo link" href="WebStudio"
-            ><span class="logo-firs-part">Web</span
-            ><span class="logo-second-part">Studio</span></a
+     <header class="header" id="header">
+      <div class="container header__container">
+        <nav class="nav">
+          <a class="nav__logo link" href="./index.html"
+            ><span class="nav__logo-firs">Web</span
+            ><span class="nav__logo-second">Studio</span></a
           >
-          <ul class="header-list list">
-            <li class="item">
-              <a class="header-list-link header-link link" href="./index.html"
+          <ul class="nav__list list">
+            <li class="nav__item ">
+              <a class="nav__link header__link  link" href="./index.html"
                 >Студія</a
               >
             </li>
-            <li class="item border">
+            <li class="nav__item nav__border">
               <a
-                class="header-list-link header-link act-port link"
+                class="nav__link header__link act-port link"
                 href="./portfolio.html"
                 >Портфоліо</a
               >
             </li>
-            <li class="item">
-              <a class="header-list-link header-link link" href="a">Контакти</a>
+            <li class="nav__item">
+              <a class="nav__link header__link act-contacts link" href="a">Контакти</a>
             </li>
           </ul>
         </nav>
-        <div class="header-contacts">
-          <ul class="list">
-            <li class="item adress-item">
-              <a class="contacts-link header-mail-link link"
+        <div class="header__contacts">
+          <ul class="header__list list">
+            <li class="item header__adress-item">
+              <a class="contacts-link header__mail-link link"
                 href="mailto:info@devstudio.com">
-                <svg class="icon-mail" width="16" height="12" >
+                <svg class="header__icon-mail" width="16" height="12" >
                         <use href="./images/icons.svg#icon-envelope"></use>
                       </svg>
                       info@devstudio.com
               </a>
             </li>
-            <li class="item adress-item">
+            <li class="item header__`adress-item">
               <a
-                class="contacts-link header-tel-link link"
+                class="contacts-link header__tel-link link"
                 href="tel:+380961111111"> 
-                <svg class="icon-tel" width="10" height="16" >
+                <svg class="header__icon-tel" width="10" height="16" >
                         <use href="./images/icons.svg#icon-smartphone"></use>
                       </svg>
                       +38 096 111 11 11
@@ -66,17 +66,17 @@
       </div>
     </header>
   <main>
-    <section class="portfolio" id="portfolio">
-      <div class="container portfolio__container">
+    <section class="portfolio">
+      <div class="container container-portfolio">
       <h1 class="visually-hidden">Портфоліо</h1> 
-<ul class="portfolio__main-filter-list list">
+<ul class="main-filter-list list">
     <li class="item"><button class="filter-button filter-button1 button" type="button">Усі</button></li>
     <li class="item"> <button class="filter-button filter-button2 button" type="button">Веб-сайти</button> </li>
     <li class="item"> <button class="filter-button filter-button3 button" type="button"> Додатки</button></li>
     <li class="item"> <button class="filter-button filter-button4 button" type="button">Дизайн</button></li>
     <li class="item"> <button class="filter-button filter-button5 button" type="button">Маркетинг</button></li>
 </ul>
-<div class="portfolio__projects">
+<div class="container-projects">
 <ul class="our-projects-list list">
     <li class="item card">
       <a class="link" href="a">
@@ -233,18 +233,18 @@
 
   </main>
   <div class="page-footer">
-   <footer class="page-footer">
-        <div class="container">
+   <footer class="footer" id="footer">
+        <div class="container footer__container">
         <div class="address-container">
-          <a class="footer-logo logo link" href="WebStudio"
-            ><span class="logo-firs-part">Web</span
-            ><span class="logo-second-footer">Studio</span></a
+          <a class="footer__logo logo link" href="WebStudio"
+            ><span class="footer__logo-firs">Web</span
+            ><span class="footer__logo-second">Studio</span></a
           >
           <address>
-              <ul class="contacts-list list">
+              <ul class="footer__contacts-list list">
                 <li>
                   <a
-                    class="address-link"
+                    class="footer__address-link link"
                     href="https://goo.gl/maps/C8LqME3QSycqYcBt8"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
@@ -252,44 +252,44 @@
                   >
                 </li>
                 <li>
-                  <a class="contacts-link link" href="mailto:info@devstudio.com"
+                  <a class="footer__contacts-link link" href="mailto:info@devstudio.com"
                     >info@devstudio.com</a
                   >
                 </li>
                 <li>
-                  <a class="contacts-link link" href="tel:+380961111111"
+                  <a class=" footer__contacts-link link" href="tel:+380961111111"
                     >+38 096 111 11 11</a>
                 </li>
               </ul>
           </address>
         </div>
-        <div class="footer-social">
-          <h3 class="footer-social-tittle">ПРИЄДНУЙТЕСЬ</h3>
-          <ul class="social-icons list">
-                  <li class="social-item">
-                    <a href="" class="social-link link">
-                      <svg class="social-icon" width="20" height="20" >
+        <div class="footer__social">
+          <h3 class="footer__social-tittle">ПРИЄДНУЙТЕСЬ</h3>
+          <ul class="footer__social-icons list">
+                  <li class="footer__social-item">
+                    <a href="" class="footer__social-link link">
+                      <svg class="footer__social-icon" width="20" height="20" >
                         <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-item">
-                    <a href="" class="social-link link">
-                      <svg class="social-icon" width="20" height="20" >
+                  <li class="footer__social-item">
+                    <a href="" class="footer__social-link link">
+                      <svg class="footer__social-icon" width="20" height="20" >
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-item">
-                    <a href="" class="social-link link">
-                      <svg class="social-icon facebook-icon" width="20" height="20" >
+                  <li class="footer__social-item">
+                    <a href="" class="footer__social-link link">
+                      <svg class="footer__social-icon facebook-icon" width="20" height="20" >
                         <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-item">
-                    <a href="" class="social-link link">
-                      <svg class="social-icon" width="20" height="20" >
+                  <li class="footer__social-item">
+                    <a href="" class="footer__social-link link">
+                      <svg class="footer__social-icon" width="20" height="20" >
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -301,7 +301,7 @@
           <div class="footer-wrapper">
           <label for="mail" class="sender-label" >ПІДПИШІТЬСЯ НА РОЗСИЛКУ</label>
           <input class="sender-input" type="email" name="mail" id="footer-mail"  placeholder="E-mail"/>
-          <button class="sender-btn" type="submit">
+          <button class="sender-btn button" type="submit">
           <span  class="sender-text">Підписатися</span> 
           <svg class="icon-send" width="24" height="24">
           <use href="./images/icons.svg#icon-send"></use>

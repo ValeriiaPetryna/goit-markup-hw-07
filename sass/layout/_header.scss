@@ -30,11 +30,13 @@
  .header__list {
      display: flex;
      align-items: center;
+     justify-content: center;
 
  }
 
  .header__mail-link {
      margin-left: 344px;
+
  }
 
  .link,
@@ -78,7 +80,12 @@
      }
  }
 
-
+.header__mail-link {
+    &:hover .header__icon-mail,
+    &:focus .header__icon-mail {
+     fill: $accent-color;
+        }
+}
 
  .header__tel-link,
  .header__mail-link {
@@ -88,6 +95,8 @@
      letter-spacing: 0.02em;
      text-align: left;
      color: $second-color;
+     display: flex;
+     align-items: center;
 
      transition: 250ms cubic-bezier(0.4, 0, 0.2, 1)
  }
@@ -96,9 +105,9 @@
      margin-right: 30px;
  }
 
- .header__tel-link {
-     align-items: center;
- }
+//  .header__tel-link {
+//      align-items: center;
+//  }
 
  .header__icon-tel {
      display: inline-flex;
@@ -107,7 +116,7 @@
      fill: $second-color;
  }
 
- .header__icon-mail {
+ .header__icon-mail, .header__icon-tel {
      display: inline-flex;
      align-items: center;
      margin-right: 10px;
@@ -132,10 +141,9 @@
      }
  }
 
-  .header__mail-link {
-
-      &:hover .header__icon-mail,
-      &:focus .header__icon-mail {
-          fill: $accent-color;
+  .header__mail-link, .header__tel-link {
+      &:hover, 
+      &:focus {
+          color: $accent-color;
       }
   }

@@ -10,20 +10,20 @@
 
 }
 
-.portfolio__container {
+.container-portfolio {
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
-.our-projects-list>.item {
+.our-projects-list > .item {
     flex-basis: calc(100% / 3 - 30px);
-    border: 1px solid #eeeeee;
-    margin-left: 30px;
-    margin-top: 30px;
+border: 1px solid #eeeeee;
+margin-left: 30px;
+margin-top: 30px;
 }
 
 
-.portfolio__projects {
+.container-projects {
     padding-top: 34px;
 }
 
@@ -44,7 +44,7 @@
     color: $second-color;
 }
 
-.portfolio__main-filter-list {
+.main-filter-list {
     display: flex;
     justify-content: center;
     margin-left: auto;
